@@ -14,3 +14,4 @@ if __name__ == "__main__":
     print(path)
     df=pd.read_csv(filepath_or_buffer=path,sep=',')
     print(df.head())
+    print(df['rh'])
